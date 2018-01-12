@@ -1,3 +1,4 @@
+//Clock
 var x = document.getElementById("form_sample");
 var createform = document.createElement('form'); // Create New Element Form
 x.appendChild(createform);
@@ -8,6 +9,7 @@ function calculateYear(days) {
   moment().format(`MMMM Do YYYY, h:mm:ss a`);
 }
 
+//Game 1
 (function() {
   function buildQuiz() {
     // we'll need a place to store the HTML output
@@ -112,6 +114,9 @@ function calculateYear(days) {
   // on submit, show results
   submitButton.addEventListener("click", showResults);
 })();
+
+//Game 2
+
 /*
 function startGame() {
   myGamePiece = new component(30, 30, "red", 10, 120);
