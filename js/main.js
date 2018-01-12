@@ -77,7 +77,7 @@ function calculateYear(days) {
   const resultsContainer = document.getElementById("results");
   const submitButton = document.getElementById("submit");
   const myQuestions = [{
-      question: "Who are Nobita's friends?",
+      question: "Who is Nobita's friends?",
       answers: {
         a: "Goku",
         b: "Deadpool",
