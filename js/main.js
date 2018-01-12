@@ -77,22 +77,22 @@ function calculateYear(days) {
   const resultsContainer = document.getElementById("results");
   const submitButton = document.getElementById("submit");
   const myQuestions = [{
-      question: "Who is the strongest?",
+      question: "Who are Nobita's friends?",
       answers: {
-        a: "Superman",
-        b: "The Terminator",
-        c: "Waluigi, obviously"
+        a: "Goku",
+        b: "Deadpool",
+        c: "Doraemon"
       },
       correctAnswer: "c"
     },
     {
-      question: "What is the best site ever created?",
+      question: "Who is Doraemon?",
       answers: {
-        a: "SitePoint",
-        b: "Simple Steps Code",
-        c: "Trick question; they're both the best"
+        a: "A cat robot from 22nd century",
+        b: "A fox robot from 21st century",
+        c: "A mice robot from 22nd century"
       },
-      correctAnswer: "c"
+      correctAnswer: "a"
     },
     {
       question: "What is the best coding boot camp in Jakarta?",
