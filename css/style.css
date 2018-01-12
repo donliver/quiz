@@ -59,3 +59,24 @@ body {
   font-size: 13px;
   text-align: center;
 }
+
+.menu {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 300px;
+  right: 200px;
+  background: white;
+  color: black;
+  width: 100px;
+  height: 100px;
+  padding: 16px -4px -16px 0;
+  border-radius: 50px;
+  font-size: 15px;
+  box-shadow: 10px 10px 40px -14px #000
+}
+
+a {
+  text-decoration: none;
+  padding: 30px 30px 30px 30px;
+}
