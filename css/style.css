@@ -63,6 +63,8 @@ body {
   letter-spacing: .15em;
   font-size: 13px;
   text-align: center;
+  position: fixed;
+  bottom: 10px;
 }
 
 .menu {
@@ -81,11 +83,35 @@ body {
   box-shadow: 10px 10px 40px -14px #000
 }
 
+.about {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 300px;
+  left: 200px;
+  background: white;
+  color: black;
+  width: 100px;
+  height: 100px;
+  padding: 16px -4px -16px 0;
+  border-radius: 50%;
+  font-size: 20px;
+  box-shadow: 10px 10px 40px -14px #000
+}
+
+.button:hover {
+  background: red;
+}
+
 .button {
   border-radius: 50%;
+  border: none;
+  text-align: center;
 }
 
 a {
   text-decoration: none;
   padding: 30px 30px 30px 8px;
 }
+
+p {}
